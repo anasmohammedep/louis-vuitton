@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style> body{font-family: 'Inter', sans-serif;} </style>
+</head>
+<body class="m-0 p-0">
+
+<!-- MAIN HERO SECTION -->
+<div class="relative w-full h-[100vh] md:h-[100vh] overflow-hidden bg-[#a8c5d6]">
+  <!-- Background Image -->
+  <img src="image/img 1.webp" 
+       alt="LV Holiday" 
+       class="absolute inset-0 w-full h-full object-cover object-center">
+
+  <!-- Top Dark Gradient -->
+  <div class="absolute top-0 left-0 w-full h-[200px] bg-gradient-to-b from-black/50 to-transparent pointer-events-none"></div>
+  <!-- Bottom Dark Gradient -->
+  <div class="absolute bottom-0 left-0 w-full h-[350px] bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+
+  <!-- NAVBAR -->
+  <nav class="absolute top-0 left-0 w-full flex items-center justify-between px-6 md:px-8 py-6 text-white z-10 transition-all duration-500">
+    
+    <!-- Left -->
+    <div class="flex items-center gap-6 md:gap-8">
+      <button class="flex items-center gap-2 text-[13px] font-light tracking-wide cursor-pointer">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        Menu
+      </button>
+      <button class="hidden md:flex items-center gap-2 text-[13px] font-light tracking-wide cursor-pointer">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M21 21l-4.3-4.3M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z"/></svg>
+        Search
+      </button>
+      <button class="md:hidden">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M21 21l-4.3-4.3M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z"/></svg>
+      </button>
+    </div>
+
+    <!-- Center Logo -->
+    <div class="absolute left-1/2 -translate-x-1/2">
+      <h1 class="text-[18px] md:text-[28px] font-normal tracking-[3px] md:tracking-[2px]">LOUIS VUITTON</h1>
+    </div>
+
+    <!-- Right -->
+    <div class="flex items-center gap-5 md:gap-6">
+      <span class="hidden md:block text-[13px] font-light tracking-wide cursor-pointer">Contact Us</span>
+      <button class="cursor-pointer">
+        <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+      </button>
+      <button class="cursor-pointer">
+        <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zM20 21a8 8 0 10-16 0"/></svg>
+      </button>
+    </div>
+
+  </nav>
+
+<!-- CENTER CONTENT - TEXTS - FINAL FIX -->
+<div class="absolute bottom-[6%] md:bottom-[8%] left-1/2 -translate-x-1/2 w-full flex flex-col items-center text-white text-center px-4 z-10">
+
+  <p class="text-[9px] md:text-[11px] font-light tracking-[2.5px] uppercase mb-2">NEW COLLECTION</p>
+
+  <h2 class="text-[15px] md:text-[26px] font-light tracking-wide mb-2 md:mb-3">Early Access: Vivienne Winter Holiday</h2>
+
+  <a href="#" class="text-[11px] md:text-[13px] font-light underline underline-offset-8 decoration-1 hover:opacity-70 transition">Discover the Collection</a>
+
+</div>
+  
+
+</div>
+
+<!-- CHAT WITH US - FIXED -->
+<div class="fixed bottom-0 right-0 md:bottom-6 md:right-6 z-[9999] bg-white text-black flex items-center gap-3 pl-5 pr-5 py-[14px] md:py-[12px] rounded-tl-[22px] rounded-tr-[22px] md:rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.18)] cursor-pointer select-none">
+  <span class="font-serif font-bold text-[18px] tracking-[1px]">LV</span>
+  <span class="text-[13px] font-medium">Chat with us</span>
+  <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7"/></svg>
+</div>
+
+<!-- Explore Section -->
+<section class="w-full bg-white py-10 md:py-16 px-6 md:px-12">
+
+  <!-- Heading -->
+  <div class="text-center mb-8 md:mb-10">
+    <h2 class="text-[18px] md:text-[22px] font-light leading-[1.4] tracking-wide">Explore a Selection of the Maison's<br>Creations</h2>
+  </div>
+
+  <!-- 4 Images Grid -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+
+    <!-- 1 -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 2.webp" alt="Women's Handbags" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700 ease-out">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light">Women's Handbags</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 3.webp" alt="Wallets" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700 ease-out">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light leading-tight">Women's Wallets and Small Leather Goods</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 4.webp" alt="Accessories" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700 ease-out">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light">Women's Accessories</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 5.webp" alt="Perfume" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700 ease-out">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light">Perfume</p>
+    </div>
+
+  </div>
+</section>
+<section class="w-full bg-white py-10 md:py-12 px-6 md:px-12">
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+
+    <!-- 1 - Men's Bags -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 6.webp" alt="Men's Bags" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light">Men's Bags</p>
+    </div>
+
+    <!-- 2 - Men's Wallets -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 7.webp" alt="Men's Wallets" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light leading-tight">Men's Wallets and Small Leather Goods</p>
+    </div>
+
+    <!-- 3 - Men's Shoes -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 8.webp" alt="Men's Shoes" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light">Men's Shoes</p>
+    </div>
+
+    <!-- 4 - Men's Accessories -->
+    <div class="flex flex-col">
+      <div class="group relative w-full aspect-[3/4] md:aspect-[4/5] bg-[#f5f5f5] overflow-hidden cursor-pointer">
+        <img src="image/img 9.webp" alt="Men's Accessories" class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
+      </div>
+      <p class="text-center mt-4 text-[12px] md:text-[13px] font-light">Men's Accessories</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="relative w-full h-[60vh] md:h-[90vh] bg-black overflow-hidden">
+
+  <!-- Video -->
+  <video id="myVideo" autoplay muted loop playsinline class="w-full h-full object-cover">
+    <source src="video/video 1.mp4" type="video/mp4">
+  </video>
+
+  <!-- Left Pause Button -->
+  <button onclick="playPause()" class="absolute bottom-4 left-6 text-white text-[14px] cursor-pointer">
+    <span id="pauseText">II</span>
+  </button>
+
+  <!-- Right Mute Button -->
+  <button onclick="muteUnmute()" class="absolute bottom-4 right-6 text-white cursor-pointer">
+    <span id="muteText">🔇</span>
+  </button>
+
+</section>
+
+<script>
+  let video = document.getElementById("myVideo");
+  let pauseText = document.getElementById("pauseText");
+  let muteText = document.getElementById("muteText");
+
+  function playPause() {
+    if (video.paused) {
+      video.play();
+      pauseText.innerText = "II";
+    } else {
+      video.pause();
+      pauseText.innerText = "▶";
+    }
+  }
+
+  function muteUnmute() {
+    video.muted = !video.muted;
+    if (video.muted) {
+      muteText.innerText = "🔇";
+    } else {
+      muteText.innerText = "🔊";
+    }
+  }
+</script>
+
+<section class="w-full bg-white py-10 px-6 md:px-10">
+
+  <!-- Heading -->
+  <div class="text-center mb-8">
+    <p class="text-[10px] tracking-[2px] uppercase mb-2">MEN</p>
+    <h2 class="text-[16px] md:text-[22px] font-light leading-tight">Digital Preorder: Spring-Summer 2027<br>Pre-Collection</h2>
+  </div>
+
+  <!-- 4 Products -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+    <!-- 1 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-[4/5] bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="wishlist-btn absolute top-3 right-3 text-[16px] cursor-pointer select-none transition">♡</span>
+        <img src="image/men 1.avif" alt="Keepall" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Keepall Bandoulière 25</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹3,00,000.00</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-[4/5] bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="wishlist-btn absolute top-3 right-3 text-[16px] cursor-pointer select-none transition">♡</span>
+        <img src="image/men 2.avif" alt="Pocket Organizer" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Pocket Organizer</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹52,000.00</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-[4/5] bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="wishlist-btn absolute top-3 right-3 text-[16px] cursor-pointer select-none transition">♡</span>
+        <img src="image/men 3.avif" alt="Sunglasses" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">LV Lock Round Square Sunglasses</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹67,000.00</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-[4/5] bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="wishlist-btn absolute top-3 right-3 text-[16px] cursor-pointer select-none transition">♡</span>
+        <img src="image/men 4.avif" alt="Jacket" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Laser Print Denim Coach Jacket</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹2,98,000.00</p>
+    </div>
+
+  </div>
+
+  <!-- Button -->
+  <div class="flex justify-center mt-10">
+    <button class="border border-black rounded-full px-8 py-2 text-[12px] hover:bg-black hover:text-white transition">Discover the Collection</button>
+  </div>
+
+</section>
+
+<script>
+  function toggleHeart(el) {
+    if (el.innerText === "♡") {
+      el.innerText = "♥"; // black heart
+      el.style.color = "black";
+    } else {
+      el.innerText = "♡"; // empty heart
+      el.style.color = "";
+    }
+  }
+</script>
+
+<section class="w-full bg-[#f6f6f6]">
+
+  <div class="w-full h-[50vh] md:h-[75vh] lg:h-[90vh] overflow-hidden">
+    <img src="image/main img 1.webp" alt="LV Bags" class="w-full h-full object-cover object-center">
+  </div>
+
+</section>
+
+<section class="w-full bg-white py-10 px-6 md:px-10">
+
+  <!-- Heading -->
+  <div class="text-center mb-8">
+    <p class="text-[10px] tracking-[2px] uppercase mb-2">WOMEN</p>
+    <h2 class="text-[18px] md:text-[24px] font-light">Signature Bags for Her</h2>
+  </div>
+
+  <!-- 4 Products -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+    <!-- 1 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/women 1.avif" alt="Pochette Metis" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Pochette Métis PM</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹2,97,000.00</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/women 2.avif" alt="OnTheGo" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">OnTheGo Soft MM</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹3,20,000.00</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/women 3.avif" alt="Alma" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Alma MM Soft</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹3,50,000.00</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/women 4.avif" alt="Side Trunk" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Side Trunk MM</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹4,60,000.00</p>
+    </div>
+
+  </div>
+
+  <!-- Button -->
+  <div class="flex justify-center mt-10">
+    <button class="border border-black rounded-full px-8 py-2.5 text-[12px] hover:bg-black hover:text-white transition">Discover the New Models</button>
+  </div>
+
+</section>
+
+<script>
+  function toggleHeart(el) {
+    if (el.innerText === "♡") {
+      el.innerText = "♥";
+      el.style.color = "black";
+    } else {
+      el.innerText = "♡";
+      el.style.color = "";
+    }
+  }
+</script>
+
+<section class="w-full bg-[#f6f6f6]">
+
+  <div class="w-full h-[50vh] md:h-[75vh] lg:h-[90vh] overflow-hidden">
+    <img src="image/main img 2.jpg" alt="LV Bags" class="w-full h-full object-cover object-center">
+  </div>
+
+</section>
+
+<section class="w-full bg-white py-10 px-6 md:px-10">
+
+  <!-- Heading -->
+  <div class="text-center mb-8">
+    <p class="text-[10px] tracking-[2px] uppercase mb-2">MEN</p>
+    <h2 class="text-[18px] md:text-[24px] font-light">Signature Bags for Him</h2>
+  </div>
+
+  <!-- 4 Products -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+    <!-- 1 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/men 5.avif" alt="Trio Messenger" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Trio Messenger</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹3,10,000.00</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/main 6.avif" alt="Keepall" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Keepall Bandoulière 25</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹2,78,000.00</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/main 7.avif" alt="Bazille" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Bazille PM</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹2,05,000.00</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="flex flex-col">
+      <div class="relative w-full aspect-square bg-[#f5f5f5] overflow-hidden">
+        <span onclick="toggleHeart(this)" class="absolute top-3 right-3 text-[16px] cursor-pointer select-none">♡</span>
+        <img src="image/men 8.avif" alt="Walkaround Tote" class="w-full h-full object-contain p-6">
+      </div>
+      <p class="text-[11px] mt-3">Walkaround Tote</p>
+      <p class="text-[11px] text-gray-500 mt-1">₹2,00,000.00</p>
+    </div>
+
+  </div>
+
+  <!-- Button -->
+  <div class="flex justify-center mt-10">
+    <button class="border border-black rounded-full px-8 py-2.5 text-[12px] hover:bg-black hover:text-white transition">Discover Now</button>
+  </div>
+
+</section>
+
+<script>
+  function toggleHeart(el) {
+    if (el.innerText === "♡") {
+      el.innerText = "♥";
+      el.style.color = "black";
+    } else {
+      el.innerText = "♡";
+      el.style.color = "";
+    }
+  }
+</script>
+
+<section class="w-full bg-white py-12 px-6 md:px-10">
+
+  <div class="text-center mb-10">
+    <h2 class="text-[20px] md:text-[22px] font-light">The Maison Louis Vuitton</h2>
+    <p class="text-[9px] md:text-[10px] text-gray-500 mt-3 max-w-[600px] mx-auto leading-[1.6]">Discover Louis Vuitton's history from 1854 to the present day – an enduring spirit of travel, visionary artistic directors, and exceptional savoir-faire.</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <!-- 1 -->
+    <div>
+      <a href="#" class="group/img relative w-full aspect-[4/5] overflow-hidden block cursor-pointer">
+        <img src="image/card 1.webp" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/0 group-hover/img:bg-black/5 transition duration-300"></div>
+      </a>
+      <div class="text-center mt-4">
+        <p class="text-[11px] mb-2">History of the House</p>
+        <a href="#" class="group/link relative inline-block text-[11px] pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">
+          Explore
+          <span class="absolute left-0 bottom-0 w-full h-[1px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[450ms]"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div>
+      <a href="#" class="group/img relative w-full aspect-[4/5] overflow-hidden block cursor-pointer">
+        <img src="image/card 2.webp" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/0 group-hover/img:bg-black/5 transition duration-300"></div>
+      </a>
+      <div class="text-center mt-4">
+        <p class="text-[11px] mb-2">Fashion Shows</p>
+        <a href="#" class="group/link relative inline-block text-[11px] pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">
+          Discover
+          <span class="absolute left-0 bottom-0 w-full h-[1px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[450ms]"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div>
+      <a href="#" class="group/img relative w-full aspect-[4/5] overflow-hidden block cursor-pointer">
+        <img src="image/card 3.webp" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/0 group-hover/img:bg-black/5 transition duration-300"></div>
+      </a>
+      <div class="text-center mt-4">
+        <p class="text-[11px] mb-2">Arts & Culture Program</p>
+        <a href="#" class="group/link relative inline-block text-[11px] pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">
+          The Program
+          <span class="absolute left-0 bottom-0 w-full h-[1px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[450ms]"></span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="w-full bg-white border-t border-gray-200 text-[10px] leading-[1.6] text-black">
+
+  <div class="max-w-[1400px] mx-auto px-6 md:px-10 py-10 md:py-12 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-10">
+
+    <!-- HELP -->
+    <div>
+      <h4 class="text-[9px] uppercase tracking-[0.1em] mb-4">Help</h4>
+      <p class="text-[10px] leading-[1.7] mb-4 max-w-[250px]">
+        A Client Advisor is available at 
+        <a href="#" class="group/link relative inline-block pb-[2px] text-black hover:text-[#9a9a9a] transition-colors duration-300">1800 103 9988<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[400ms]"></span></a> or 
+        <a href="#" class="group/link relative inline-block pb-[2px] text-black hover:text-[#9a9a9a] transition-colors duration-300">8000820525<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[400ms]"></span></a>. You can also 
+        <a href="#" class="group/link relative inline-block pb-[2px] text-black hover:text-[#9a9a9a] transition-colors duration-300">chat<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[400ms]"></span></a> or 
+        <a href="#" class="group/link relative inline-block pb-[2px] text-black hover:text-[#9a9a9a] transition-colors duration-300">email us<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[400ms]"></span></a>.
+      </p>
+      <ul class="space-y-3">
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">FAQ<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Product Care<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Stores<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+      </ul>
+    </div>
+
+    <!-- SERVICES -->
+    <div>
+      <h4 class="text-[9px] uppercase tracking-[0.1em] mb-4">Services</h4>
+      <ul class="space-y-3">
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Repairs<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Personalisation<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Art of Gifting<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Download our Apps<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+      </ul>
+    </div>
+
+    <!-- ABOUT -->
+    <div>
+      <h4 class="text-[9px] uppercase tracking-[0.1em] mb-4">About Louis Vuitton</h4>
+      <ul class="space-y-3">
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Fashion Shows<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Arts & Culture<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">La Maison<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Sustainability<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Latest News<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Ethics and Compliance<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Careers<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+        <li><a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Foundation Louis Vuitton<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a></li>
+      </ul>
+    </div>
+
+    <!-- CONNECT -->
+    <div>
+      <h4 class="text-[9px] uppercase tracking-[0.1em] mb-4">Connect</h4>
+      <p class="text-[10px] leading-[1.7] mb-4 max-w-[300px]">
+        <a href="#" class="group/link relative inline-block pb-[2px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Sign up<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-100 group-hover/link:origin-right group-hover/link:scale-x-0 transition-transform duration-[400ms]"></span></a> for Louis Vuitton emails and receive the latest news from the Maison, including exclusive online pre-launches and new collections.
+      </p>
+      <a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Follow Us<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a>
+    </div>
+  </div>
+
+  <div class="border-t border-gray-200"></div>
+
+  <div class="max-w-[1400px] mx-auto px-6 md:px-10 py-8">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-8">
+      <div class="flex-1">
+        <div class="flex items-center gap-2 mb-6">
+          <img src="image/india.svg" class="w-4 h-3 object-cover"><span class="text-[10px]">India</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div>
+            <p class="text-[9px] mb-3">Full Name and Address of the Manufacturer</p>
+            <p class="text-[10px] leading-[1.6]">Louis Vuitton Malletier SAS<br>2 Rue du Pont Neuf<br>75034 Paris CEDEX 01<br>FRANCE<br><br>Please refer to the product label for specific country of origin for each product.</p>
+          </div>
+          <div>
+            <p class="text-[9px] mb-3">Full Name and Address of the Importer</p>
+            <p class="text-[10px] leading-[1.6]">Louis Vuitton India Retail Private Limited<br>Units 001-002-003, 4th Floor,<br>Emaar Capital Tower 1, Sector 26,<br>Mehrauli-Gurgaon Road,<br>Gurgaon 122002, India</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-6 text-[10px]">
+        <a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Sitemap<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a>
+        <a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Legal & Privacy<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a>
+        <a href="#" class="group/link relative inline-block pb-[3px] text-black hover:text-[#9a9a9a] transition-colors duration-300">Cookies<span class="absolute left-0 bottom-0 w-full h-[0.5px] bg-current origin-left scale-x-0 group-hover/link:scale-x-100 transition-transform duration-[400ms]"></span></a>
+      </div>
+    </div>
+    <div class="text-center mt-12 mb-4">
+      <h2 class="text-[14px] font-bold tracking-[0.05em]">LOUIS VUITTON</h2>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
