@@ -150,39 +150,40 @@
     <source src="video/video 1.mp4" type="video/mp4">
   </video>
 
-  <button onclick="playPause()" class="absolute bottom-4 left-6 text-white text-[14px] cursor-pointer">
+  <button class="absolute bottom-4 left-6 text-white text-[14px] cursor-pointer">
     <span id="pauseText">II</span>
   </button>
 
-  <button onclick="muteUnmute()" class="absolute bottom-4 right-6 text-white cursor-pointer">
+  <button class="absolute bottom-4 right-6 text-white cursor-pointer">
     <span id="muteText">🔇</span>
   </button>
 
 </section>
 
 <script>
-  let video = document.getElementById("myVideo");
-  let pauseText = document.getElementById("pauseText");
-  let muteText = document.getElementById("muteText");
-
-  function playPause() {
-    if (video.paused) {
+  const video= document.getElementById("myVideo");
+  const pauseText = document.getElementById("pauseText");
+  const muteText = document.getElementById("muteText");
+ pauseText.addEventListener('click', () => {
+   pauseText.muted = !video.muted;
+    if(video.paused){
       video.play();
-      pauseText.innerText = "II";
+      pauseText.innerText="II";
     } else {
       video.pause();
-      pauseText.innerText = "▶";
+      pauseText.innerText="▶";
     }
-  }
+  });
+  
 
-  function muteUnmute() {
+  muteText.addEventListener('click', () => {
     video.muted = !video.muted;
     if (video.muted) {
       muteText.innerText = "🔇";
     } else {
       muteText.innerText = "🔊";
     }
-  }
+  });
 </script>
 
 <section class="w-full bg-white py-10 px-6 md:px-10">
